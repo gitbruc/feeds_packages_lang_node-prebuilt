@@ -26,7 +26,7 @@ jobs:
         run: |
           git remote add upstream https://github.com/sbwml/feeds_packages_lang_node-prebuilt
           git fetch upstream
-          git merge upstream/packages-24.10
+          git merge upstream/packages-25.12
           git push
 
       - name: Keepalive Workflow
